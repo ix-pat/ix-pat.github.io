@@ -1,0 +1,41 @@
+---
+title: "Corso di Statistica CLEAM"
+---
+
+Benvenuti nella homepage del corso di Statistica, qui di seguito le risorse utilizzate nel corso
+
+# Appunti e Esercizi
+
+-   Gli appunti contengono il canovaccio delle lezioni si possono consultare online: [Appunti di Statistica](appunti/)
+-   Oppure si può scaricare la versione stampabile da qui: [Apputni di Statistica in pdf](appunti/Appunti_di_Statistica_2025.pdf)
+-   Esercizi e compiti passati online: [Eserciziario](esercizi/)
+-   Esercizi e compiti passati pdf: [Eserciziario pdf](esercizi/Esami_passati_con_soluzioni.pdf)
+-   [Compendio di Teoria](http://frederic.economia.unimore.it/Compendio-di-teoria-e-domande.pdf)
+
+# Pagina Teams del corso 24/25
+
+- [Teams Statistica](https://teams.microsoft.com/l/team/19%3AxjKeXglSiTLuaBjA9R2H173fjKKphQPLxYigYpdw9iY1%40thread.tacv2/conversations?groupId=7d35d7a9-c260-4dc6-8c50-0031c974fd62&tenantId=e787b025-3fc6-4802-874a-9c988768f892)
+
+# Pagina del Tutor
+
+Non ancora disponibile. 
+
+# Materiale per l'esame
+
+-   [Formulario](http://frederic.economia.unimore.it/formulario23.pdf)
+-   [Tavole statistiche](http://frederic.economia.unimore.it/tavole-statistiche.pdf)
+
+# Applicazioni web
+
+-   [Funzione di Ripartizione descrittiva](https://patrizio-frederic.shinyapps.io/FdR_descrittiva/)
+-   [Passaggio discreto continuo](https://patrizio-frederic.shinyapps.io/discreto-continuo/)
+-   [Variabili Casuali](https://patrizio-frederic.shinyapps.io/prob/)
+-   [Teorema del Limite Centrale](https://patrizio-frederic.shinyapps.io/TLC_/)
+-   [Intervalli di Confidenza](https://patrizio-frederic.shinyapps.io/IdC_/)
+-   [Test](https://ixpat.shinyapps.io/Test/)
+
+-------------------------------------------------------------------------------
+-   [Foglio di Calcolo con le tavole](https://docs.google.com/spreadsheets/d/1jzCZUuuMLHZqmEj_NpWm_jbDT_UDik3rO__Xqk1KK_E/edit?usp=sharing)
+-   [Esempio di Regressione](http://frederic.economia.unimore.it/Regr/regr-ex.html)
+-   [Generatore di Compiti (beta)](https://ixpat.shinyapps.io/compiti-rand/)
+-   [Calcolatrice Statistica](https://ixpat.shinyapps.io/calc/)
