@@ -10,7 +10,7 @@ Benvenuti nella homepage del corso di Statistica, qui di seguito le risorse util
 -   Oppure si può scaricare la versione stampabile da qui: [Apputni di Statistica in pdf](appunti/Appunti_di_Statistica_2025.pdf)
 -   Esercizi e compiti passati online: [Eserciziario](esercizi/)
 -   Esercizi e compiti passati pdf: [Eserciziario pdf](esercizi/Esami_passati_con_soluzioni.pdf)
--   [Compendio di Teoria](http://frederic.economia.unimore.it/Compendio-di-teoria-e-domande.pdf)
+-   [Compendio di Teoria](Compendio-di-teoria-e-domande.pdf)
 
 # Pagina Teams del corso 24/25
 
