@@ -22,8 +22,8 @@ Non ancora disponibile.
 
 # Materiale per l'esame
 
--   [Formulario](http://frederic.economia.unimore.it/formulario23.pdf)
--   [Tavole statistiche](http://frederic.economia.unimore.it/tavole-statistiche.pdf)
+-   [Formulario](formulario23.pdf)
+-   [Tavole statistiche](tavole-statistiche.pdf)
 
 # Applicazioni web
 
