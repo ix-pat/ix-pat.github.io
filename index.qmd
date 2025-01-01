@@ -37,6 +37,6 @@ Non ancora disponibile.
 
 -------------------------------------------------------------------------------
 -   [Foglio di Calcolo con le tavole](https://docs.google.com/spreadsheets/d/1jzCZUuuMLHZqmEj_NpWm_jbDT_UDik3rO__Xqk1KK_E/edit?usp=sharing)
--   [Esempio di Regressione](http://frederic.economia.unimore.it/Regr/regr-ex.html)
+-   [Esempio di Regressione](Regr/)
 -   [Generatore di Compiti (beta)](https://ixpat.shinyapps.io/compiti-rand/)
 -   [Calcolatrice Statistica](https://ixpat.shinyapps.io/calc/)
