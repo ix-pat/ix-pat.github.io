@@ -34,6 +34,7 @@ Non ancora disponibile.
 -   [Teorema del Limite Centrale](https://patrizio-frederic.shinyapps.io/TLC_/)
 -   [Intervalli di Confidenza](https://patrizio-frederic.shinyapps.io/IdC_/)
 -   [Test](https://ixpat.shinyapps.io/Test/)
+-   [Minimi Quadrati](https://ixpat.shinyapps.io/Least-Squares/)
 
 -------------------------------------------------------------------------------
 -   [Foglio di Calcolo con le tavole](https://docs.google.com/spreadsheets/d/1jzCZUuuMLHZqmEj_NpWm_jbDT_UDik3rO__Xqk1KK_E/edit?usp=sharing)
