@@ -48,13 +48,18 @@ a:hover {
 
 
 #TOC .nav-link {
-  color: var(--iblue2);
+  color: var(--iblue);
 }
 
-#TOC .nav-link:hover {
-  color: var(--iblue2);
+#quarto-margin-sidebar #TOC .nav-link:hover {
+  color: var(--iblue) !important;
 }
 
-#TOC .nav-link.active {
-  color: var(--ired);
+#quarto-margin-sidebar #TOC .nav-link.active {
+  color: var(--ired) !important;
+}
+
+.nav-link:focus, 
+.nav-link:hover {
+  color: var(--ired) !important;
 }
