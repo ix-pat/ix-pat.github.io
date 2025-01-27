@@ -41,20 +41,16 @@ a:hover {
     text-decoration: none;
 }
 
-.navbar-brand, .navbar-brand a:hover {
-    color: white !important;
+.navbar-brand:hover, .navbar-brand a:hover {
+    color: var(--iblue3) !important;
     text-decoration: none;
 }
 
 
-#TOC .nav-link {
+.navbar-nav.ml-auto .nav-link {
   color: var(--iblue2);
 }
 
-#TOC .nav-link:hover {
+.navbar-nav.ml-auto .nav-link:hover {
   color: var(--iblue2);
-}
-
-#TOC .nav-link.active {
-  color: var(--ired);
 }

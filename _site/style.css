@@ -1,7 +1,10 @@
 
 :root {
   --iblue: rgba(6,72,122,1);
+  --iblue2: rgba(6,72,122,.7);
+  --iblue3: rgba(6,72,122,.2);
   --ired: rgba(171,41,46);
+  --ired2: rgba(171,41,46,.7);
 }
 
 h1 {
@@ -20,96 +23,38 @@ h4 {
   color: var(--iblue);
 }
 
-
-p.caption {
-  color: #777;
-  margin-top: 10px;
-}
-p code {
-  white-space: inherit;
-}
-pre {
-  word-break: normal;
-  word-wrap: normal;
-}
-pre code {
-  white-space: inherit;
+a:link {
+  color: var(--iblue2);
 }
 
-
-
-
-.info {
-  padding: 1em;
-  background: linear-gradient(0deg, rgba(186,210,224,.4) 0%, rgba(186,210,224,.2) 100%);
-  color: var(--iblue);
-/*  border: 1px solid var(--iblue); */
-  border-radius: 1px;
-  margin-bottom: 10px;
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); 
-}
-.center {
-  text-align: center;
+/* visited link */
+a:visited {
+  color: var(--iblue2);
 }
 
-.info2 {
-  padding: 1em;
-  background: linear-gradient(0deg, rgba(186,210,224,.4) 0%, rgba(186,210,224,.2) 100%);
-  color: var(--iblue);
-/*  border: 1px solid var(--iblue); */
-  border-radius: 1px;
-  margin-bottom: 10px;
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); 
+a:hover {
+  color: var(--ired2);
+}
+
+.navbar-brand, .navbar-brand a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.navbar-brand, .navbar-brand a:hover {
+    color: white !important;
+    text-decoration: none;
 }
 
 
-.minip {
-  padding: 1em;
-  border: 2px solid var(--iblue);
-  border-radius: 1px;
-  padding-top: 0px;
-  margin-bottom: 10px;
+#TOC .nav-link {
+  color: var(--iblue2);
 }
 
-.nota {
-  padding: 1em;
-  border: 2px solid var(--iblue);
-  border-radius: 1px;
-  padding-top: 0px;
-  margin-bottom: 10px;
-}
-.nota::before {
-  content: " Nota";
-  color: white ;
-  background:  var(--iblue);
-  display: block;
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  margin-top: 0px;
-  margin-right: -16px;
-  margin-left: -16px;
-  padding: 5px;
+#TOC .nav-link:hover {
+  color: var(--iblue2);
 }
 
-.att {
-  padding: 1em;
-  border: 2px solid var(--ired);
-  border-radius: 1px;
-  padding-top: 0px;
-  margin-bottom: 10px;
-}
-
-.att::before {
-  content: " Attenzione";
-  color: white ;
-  background:  var(--ired);
-  display: block;
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  margin-top: 0px;
-  margin-right: -16px;
-  margin-left: -16px;
-  padding: 5px;
+#TOC .nav-link.active {
+  color: var(--ired);
 }

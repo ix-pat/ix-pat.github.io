@@ -2,7 +2,6 @@
 :root {
   --iblue: rgba(6,72,122,1);
   --iblue2: rgba(6,72,122,.7);
-  --iblue3: rgba(6,72,122,.2);
   --ired: rgba(171,41,46);
   --ired2: rgba(171,41,46,.7);
 }
@@ -32,29 +31,7 @@ a:visited {
   color: var(--iblue2);
 }
 
-a:hover {
-  color: var(--ired2);
-}
-
 .navbar-brand, .navbar-brand a {
     color: white !important;
     text-decoration: none;
-}
-
-.navbar-brand, .navbar-brand a:hover {
-    color: white !important;
-    text-decoration: none;
-}
-
-
-#TOC .nav-link {
-  color: var(--iblue2);
-}
-
-#TOC .nav-link:hover {
-  color: var(--iblue2);
-}
-
-#TOC .nav-link.active {
-  color: var(--ired);
 }

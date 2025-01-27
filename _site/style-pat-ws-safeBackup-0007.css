@@ -42,19 +42,15 @@ a:hover {
 }
 
 .navbar-brand, .navbar-brand a:hover {
-    color: white !important;
+    color: var(--iblue3) !important;
     text-decoration: none;
 }
 
 
-#TOC .nav-link {
+.toc a {
   color: var(--iblue2);
 }
 
-#TOC .nav-link:hover {
+.toc a:hover {
   color: var(--iblue2);
-}
-
-#TOC .nav-link.active {
-  color: var(--ired);
 }
