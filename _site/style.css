@@ -1,11 +1,11 @@
 
 :root {
-  --iblue: rgba(6,72,122,1);
-  --iblue2: rgba(6,72,122,.7);
-  --iblue3: rgba(6,72,122,.2);
-  --ired: rgba(171,41,46);
-  --ired2: rgba(171,41,46,.7);
-}
+  --iblue:  rgba(006,072,122,1.0);
+  --iblue2: rgba(006,072,122,0.7);
+  --iblue3: rgba(006,072,122,0.2);
+  --ired:   rgba(171,041,046,1.0);
+  --ired2:  rgba(171,041,046,0.7);
+} 
 
 h1 {
   color: var(--iblue);

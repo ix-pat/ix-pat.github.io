@@ -5,7 +5,7 @@
   --iblue3: rgba(006,072,122,0.2);
   --ired:   rgba(171,041,046,1.0);
   --ired2:  rgba(171,041,046,0.7);
-}
+} 
 
 h1 {
   color: var(--iblue);
