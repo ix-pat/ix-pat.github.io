@@ -6,7 +6,7 @@ Benvenuti nella homepage del corso di Statistica, qui di seguito le risorse util
 
 ## Prova parziale
 
-- [Tracce e Soluzioni](prz-2.html)
+- [Tracce e Soluzioni](prz-1.html)
 
 # Appunti e Esercizi
 
