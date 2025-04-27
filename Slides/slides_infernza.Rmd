@@ -54,7 +54,7 @@ Dalla Treccani si definisce l'atto di inferire come:
 - Perché succede questa condizione?
 - Cosa succederebbe se adottassi un altro comportamento?
 - Se succedesse questa situazione ipotetica?
-- Se succederebbe se in questa situazione ipotetica, adottassi un comportamento ipotetico?
+- Cosa succederebbe se in una data situazione ipotetica adottassi un dato comportamento ipotetico?
 
 ## Specificità umana dell'inferenza
 
