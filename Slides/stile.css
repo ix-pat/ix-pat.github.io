@@ -1,0 +1,22 @@
+/* stile.css */
+
+:root {
+  --iblue: rgba(6,72,122,1);
+  --ired: rgba(171,41,46);
+}
+
+
+body {
+  font-size: 1.1em;
+}
+
+div.slide h1 {
+  position: relative;
+  padding: 1em;
+  background: var(--iblue);
+  color: white;
+  border: 1px solid var(--iblue); 
+  border-radius: 1px;
+  margin-bottom: 1em;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); 
+}

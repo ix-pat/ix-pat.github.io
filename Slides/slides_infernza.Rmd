@@ -1,0 +1,195 @@
+---
+title: "Inferenza"
+author: "Patrizio Frederic"
+date: "`r Sys.Date()`"
+output:
+  slidy_presentation:
+    highlight: pygments
+    incremental: true
+    footer: © 2025 Patrizio Frederic
+    css: stile.css
+  pdf_document:
+    keep_tex: true
+  html_document:
+    highlight: pygments
+    theme: united
+  ioslides_presentation:
+    incremental: true
+    css: stile.css
+  beamer_presentation:
+    highlight: pygments
+    incremental: true
+header-includes:
+- \usepackage[italian]{babel}
+- \usepackage{amsmath,mathrsfs,amsthm}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(pat.book)
+```
+
+## Inferire
+
+Dalla Treccani si definisce l'atto di inferire come:
+
+> Trarre, partendo da una determinata premessa o dalla constatazione di un fatto, una conseguenza, un giudizio, una conclusione.
+
+
+## Inferire: un atto cognitivo fondamentale 
+
+- Inferire = trarre conclusioni da osservazioni o idee 
+- Collega idee ed esperienze con altre idee
+- Richiede riconoscimento, elaborazione, astrazione
+
+## Inferenza nel mondo animale
+
+- Alcune specie evolute apprendono regolarità dall'ambiente
+- Adattano il comportamento in base all'esperienza
+- Inferenza implicita, non consapevole
+
+## Dalla contingenza all'astrazione
+
+- Se succede questa condizione → adotto questo comportamento
+- Perché succede questa condizione?
+- Cosa succederebbe se adottassi un altro comportamento?
+- Se succedesse questa situazione ipotetica?
+- Se succederebbe se in questa situazione ipotetica, adottassi un comportamento ipotetico?
+
+## Specificità umana dell'inferenza
+
+- L'uomo prende coscienza dell'atto inferenziale
+- Costruisce linguaggi simbolici e modelli astratti
+- Nascono logica, matematica, statistica
+- L'inferenza diventa replicabile e comunicabile
+
+## Tre modalità di inferenza: Deduttiva
+
+- Deduttiva: da premesse date a conclusioni necessarie
+  + Se $A\Rightarrow B$ e $B\Rightarrow C$, allora $A\Rightarrow C$
+  + Socrate è un uomo ($S\Rightarrow U$) → **Tutti** gli uomini sono mortali ($U\Rightarrow M$) →  Socrate è mortale ($S\Rightarrow M$)
+  + Michele è una mucca → **Tutte** le mucche hanno le ali →  Michele ha le ali
+  + Se $x>2$ allora $x^2>4$ → $x=3$ → $x^2=9>4$
+  + Se $P(B|A)=1$, e $P(C|B)=1$ allora $P(C|A)=1$
+```{r}
+plot(c(0,2),c(0,1.5),asp=1,type="n",axes = F,xlab = "",ylab = "")
+rect(xleft = 0,ybottom = 0,xright = 2,ytop = 1.5)
+ellisse(1,.75,.7,.7,col = 3)
+ellisse(1,.75,.5,.5,col = 4)
+ellisse(1,.75,.25,.25,col = 2)
+text(1,.75,"A",cex=2.5)
+text(1.35,.75,"B",cex=2.5)
+text(1.6,.75,"C",cex=2.5)
+text(0.2,1.3,expression(Omega),cex=2.5)
+```
+
+
+
+## Tre modalità di inferenza: Induttiva Diretta
+
+- Induttiva diretta: da modello noto a probabilità di osservazioni
+  + questa è una pallina → **Alcune** palline sono vincenti → $0 < P(\text{Pallina Vincente}) < 1$
+  + Michele è un uomo → **Alcuni** uomini hanno l'allele APOE $\varepsilon4$ → $0 < P(\text{APOE }\varepsilon4 ) < 1$
+```{r}
+plot(c(0,2),c(0,1.5),asp=1,type="n",axes = F,xlab = "",ylab = "")
+rect(xleft = 0,ybottom = 0,xright = 2,ytop = 1.5)
+ellisse(1.2,.75,.7,.65,col = rgb(0, 1, 0, alpha = 0.5))
+ellisse(.5,.75,.45,.4,col = rgb(0, 0, 1, alpha = 0.5))
+ellisse(.5,.75,.25,.2,col = rgb(1, 0, 0, alpha = 0.5))
+text(.5,.75,"A",cex=2.5)
+text(.8,.75,"B",cex=2.5)
+text(1.3,.75,"C",cex=2.5)
+text(0.2,1.3,expression(Omega),cex=2.5)
+```
+
+## Tre modalità di inferenza: Induttiva Inversa
+
+- Induttiva inversa (**Inferenza Statistica**): da dati osservati a modello incognito
+  + Estraggo 10 palline → 6 palline sono vincenti → com'è composta l'urna?
+  + Osservo 100 persone → 53 hanno l'allele APOE $\varepsilon4$ → com'è composta l'urna?
+  + Estraggo 10 palline da un'urna e 10 dall'altra → 6 sono vincenti dalla prima e 4 dalla seconda → le due urne sono uguali?
+  + Osservo 50 anziani con l'Alzheimer e 50 anziani senza → 40 su 50 tra chi ha l'Alzheimer ha l'allele APOE $\varepsilon4$, 24 su 50 tra chi non ha l'Alzheimer ha l'allele APOE $\varepsilon4$ → i due gruppi sono uguali?
+
+## Dalla probabilità all'inferenza
+
+- Esistono diversi approcci filosofico/concettuali
+- Dipende dalla definizione di probabilità
+- La probabilità in senso frequentista: 
+  + La probabilità vera esiste ma è incognita
+  + Il vero $\pi$ di un'urna esiste ma è incognito 
+  + La probabilità si applica solo agli esperimenti ripetibili (come le estrazioni)
+  + $\pi$ non è oggetto di estrazione casuale, non posso usare la probabilità per descrivere la mia incertezza
+  + La probabilità non basta: per fare inferenza servono nuovi concetti → statistica classica
+- La probabilità in senso soggettivista:
+  + La probabilità è un modo per modellare l'incertezza soggettiva
+  + Qualsiasi cosa ignota può essere trattata come aleatoria
+  + Siccome $\pi$ è incognito lo modello come una VC
+  + La probabilità contiene anche l'inferenza statistica → statistica bayesiana
+
+## Statistica Classica vs Statistica Bayesiana
+
+- Statistica Classica
+  + È il più diffusa nelle applicazioni e nelle discipline scientifiche
+  + È storicamente consolidata (Fisher, Neyman, Pearson...)
+  + Resta il termine di confronto per ogni alternativa
+- Statistica Bayesiana
+  + È ancora emergente nelle applicazioni
+  + È dibattuta perché introduce elementi soggettivi in modo esplicito
+  + È spesso studiata in contrapposizione alla statistica classica, in corsi più avanzati
+  + Estende e generalizza i risultati della statistica classica
+
+## Campione e Campionamento
+
+- Tutta l'inferenza parte dall'osservazione di un campione
+- Il campione è al fonte principale di informazione
+- Rappresenta (idealmente) qualcosa di più grande
+
+## Campioni Casuali
+
+- La casualità nella selezione garantisce generalizzabilità
+- Senza casualità: rischio di distorsione sistematica
+- La probabilità permette di misurare l'incertezza
+
+## Inferenza da popolazioni finite
+
+- Popolazioni chiuse, elencabili (es. censimenti)
+- Necessario un registro completo della popolazione
+- Richiede disegno campionario, strumenti di rilevazione, controllo qualità
+- Tipica delle statistiche ufficiali (ISTAT, Eurostat, OCSE)
+
+## Esempi di indagini su popolazioni finite
+
+- Forze di lavoro (ISTAT): tasso di occupazione, 77 000 famiglie/trim.
+- Consumi delle famiglie (ISTAT): diario spese, 30 000 famiglie/anno
+- EU-SILC (Eurostat/ISTAT): redditi e disuguaglianze, >20 000 famiglie
+- PISA (OCSE): competenze studenti quindicenni, 11 000 studenti/3 anni
+- PIAAC (OCSE): competenze adulti 16-65 anni, 5 000 individui
+- TALIS (OCSE): condizioni di lavoro degli insegnanti, 3 000 insegnanti
+
+## Inferenza da popolazioni infinite
+
+- Popolazioni non enumerate, concettualmente infinite
+- I dati sono realizzazioni di una variabile aleatoria
+- Si adotta un approccio modellistico probabilistico
+
+## Esempi di popolazioni non enumerate
+
+- I consumatori abituali degli spaghetti Barilla
+- Le aziende con un gestionale più vecchio di 10 anni
+- Le formiche presenti in una foresta tropicale
+- I malati di diabete nel mondo
+
+
+## Esempi di inferenza da popolazioni infinite
+
+- Processi fisici e ambientali (es. temperatura, inquinanti)
+- Produzione industriale (pezzi futuri)
+- Eventi ripetibili (click, richieste a server)
+
+## Inferenza non parametrica e parametrica
+
+- Non parametrica: osservazioni IID, nessuna ipotesi sulla distribuzione
+- Parametrica: ipotesi su una famiglia di distribuzioni
+- Scelta = compromesso tra flessibilità e precisione
+
+

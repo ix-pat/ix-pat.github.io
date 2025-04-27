@@ -1,0 +1,10 @@
+/* stile per titolo slide */
+h2 {
+  background-color: #2a6ebb;  /* blu istituzionale */
+  color: white;
+  padding: 0.5em 1em;
+  margin: -1em -1em 0.5em -1em; /* estende il background su tutta la slide */
+  font-weight: bold;
+  font-size: 1.8em;
+  border-bottom: 3px solid #1a4e8a;
+}
