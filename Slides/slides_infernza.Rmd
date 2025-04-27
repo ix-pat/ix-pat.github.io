@@ -94,7 +94,7 @@ text(0.2,1.3,expression(Omega),cex=2.5)
   + Estraggo 10 palline → 6 palline sono vincenti → com'è composta l'urna?
   + Osservo 100 persone → 53 hanno l'allele APOE $\varepsilon4$ → com'è composta l'urna?
   + Estraggo 10 palline da un'urna e 10 dall'altra → 6 sono vincenti dalla prima e 4 dalla seconda → le due urne sono uguali?
-  + Osservo 50 anziani con l'Alzheimer e 50 anziani senza → 40 su 50 tra chi ha l'Alzheimer ha l'allele APOE $\varepsilon4$, 24 su 50 tra chi non ha l'Alzheimer ha l'allele APOE $\varepsilon4$ → i due gruppi sono uguali?
+  + Osservo 100 anziani con l'Alzheimer e 100 anziani senza → 49 su 100 tra chi ha l'Alzheimer ha l'allele APOE $\varepsilon4$, 32 su 100 tra chi non ha l'Alzheimer ha l'allele APOE $\varepsilon4$ → i due gruppi sono uguali?
 
 
 ## Dalla probabilità all'inferenza
