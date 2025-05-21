@@ -1,0 +1,64 @@
+---
+title: "Corso di Statistica CLEAM"
+---
+
+Benvenuti nella homepage del corso di Statistica, qui di seguito le risorse utilizzate nel corso
+
+## Prova parziale
+
+- [Tracce e Soluzioni](prz-1.html)
+
+# Appunti e Esercizi
+
+
+-   [Slides della prima lezione](https://docs.google.com/presentation/d/1xD1ut73zSct0uUt0pjhyfKvqpX-XoGe4bf3c1sXWKBY/edit?usp=sharing)
+-   [Slides Inferenza](Slides/slides_infernza.html)
+-   Gli appunti contengono il canovaccio delle lezioni si possono consultare online: [Appunti di Statistica](appunti/)
+-   Oppure si può scaricare la versione stampabile da qui: [Apputni di Statistica in pdf](appunti/Appunti_di_Statistica_2025.pdf)
+-   Esercizi e compiti passati online: [Eserciziario](esercizi/)
+-   Esercizi e compiti passati pdf: [Eserciziario pdf](esercizi/Esami_passati_con_soluzioni.pdf)
+-   [Compendio di Teoria](Compendio-di-teoria-e-domande.pdf)
+
+# Pagina Teams del corso 24/25
+
+- [Teams Statistica](https://teams.microsoft.com/l/team/19%3AxjKeXglSiTLuaBjA9R2H173fjKKphQPLxYigYpdw9iY1%40thread.tacv2/conversations?groupId=7d35d7a9-c260-4dc6-8c50-0031c974fd62&tenantId=e787b025-3fc6-4802-874a-9c988768f892)
+
+## Problemi di Registrazione
+
+- [slides della lezione 05/03](slides0503.pdf)
+- [lezione del 19/03](https://unimore365.sharepoint.com/:v:/s/InsegnamentoPercorso_2023_50-213_2019_EC-ST01_S2-Lezioni-privato/EbRKlv5qlNxNiAyj-OoZBUAB4ksgBXd9GS54cBoFQWSDcQ?e=6YJVao)
+- l'audio dell'esercitazione del 17/03 non è disponibile per problemi tecnici
+- la registrazione della lezione del 26/03 è mancante, un riassunto è nella lezione del 27
+- [slides della lezione 12/05](slides1205.pdf)
+- [lezione del 21/05/2025 prima parte registrata nel 2024](https://unimore365.sharepoint.com/:v:/s/InsegnamentoPercorso_2023_50-213_2019_EC-ST01_S2-Lezioni-privato/EX8NaWhKIc5OipXEAzfpBo0Bs3p7JZkocxRsidGA4t1tDw) i test sono svolti per un solo valore di $\alpha$, ma come indicato negli esercizi del 2024, da quest'anno usaimo diversi valori di $\alpha$.
+- [lezione del 21/05/2025 seconda parte registrata nel 2024 fino al minuto 37](https://unimore365.sharepoint.com/:v:/s/InsegnamentoPercorso_2023_50-213_2019_EC-ST01_S2-Lezioni-privato/EcbBldunfRlGoDmbtNgNs8EBcj0CGWWWvUlkaS7EozfOYA?e=hYOonj)
+
+
+# Pagina del Tutor
+
+
+[https://moodle.unimore.it/course/view.php?id=16324](https://moodle.unimore.it/course/view.php?id=16324)
+
+Le registrazione della pagina del tutor saranno disponibili entro il 19 maggio disponibile solo per studenti lavoratori e DSA. Dal 19 maggio saranno disponibili per tutti.
+
+# Materiale per l'esame
+
+-   [Formulario](formulario23.pdf)
+-   [Tavole statistiche](tavole-statistiche.pdf)
+
+# Applicazioni web
+
+-   [Funzione di Ripartizione descrittiva](https://patrizio-frederic.shinyapps.io/FdR_descrittiva/)
+-   [Passaggio discreto continuo](https://patrizio-frederic.shinyapps.io/discreto-continuo/)
+-   [Variabili Casuali](https://patrizio-frederic.shinyapps.io/prob/)
+-   [Teorema del Limite Centrale](https://patrizio-frederic.shinyapps.io/TLC_/)
+-   [Legge Dei Grandi Numeri e TLC](https://ixpat.shinyapps.io/LFGN/)
+-   [Intervalli di Confidenza](https://patrizio-frederic.shinyapps.io/IdC_/)
+-   [Test](https://ixpat.shinyapps.io/Test/)
+-   [Minimi Quadrati](https://ixpat.shinyapps.io/Least-Squares/)
+
+-------------------------------------------------------------------------------
+-   [Foglio di Calcolo con le tavole](https://docs.google.com/spreadsheets/d/1jzCZUuuMLHZqmEj_NpWm_jbDT_UDik3rO__Xqk1KK_E/edit?usp=sharing)
+-   [Esempio di Regressione](Regr/)
+-   [Generatore di Compiti (beta)](https://ixpat.shinyapps.io/compiti-rand/)
+-   [Calcolatrice Statistica](https://ixpat.shinyapps.io/calc/)
