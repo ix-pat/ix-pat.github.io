@@ -13,7 +13,8 @@ format:
   html:
     theme: flatly
     css: style.css
-    toc: false
+    toc: true
+    toc-depth: 3
 
 
 
