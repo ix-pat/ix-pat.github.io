@@ -30,6 +30,8 @@ Benvenuti nella homepage del corso di Statistica, qui di seguito le risorse util
 - l'audio dell'esercitazione del 17/03 non è disponibile per problemi tecnici
 - la registrazione della lezione del 26/03 è mancante, un riassunto è nella lezione del 27
 - [slides della lezione 12/05](slides1205.pdf)
+- [lezione del 21/05/2025 prima parte registrata nel 2024](https://unimore365.sharepoint.com/:v:/s/InsegnamentoPercorso_2023_50-213_2019_EC-ST01_S2-Lezioni-privato/EX8NaWhKIc5OipXEAzfpBo0Bs3p7JZkocxRsidGA4t1tDw) i test sono svolti per un solo valore di $\alpha$, ma come indicato negli esercizi del 2024, da quest'anno usaimo diversi valori di $\alpha$.
+- [lezione del 21/05/2025 seconda parte registrata nel 2024 fino ai residui studentizzati, esclusi](https://unimore365.sharepoint.com/:v:/s/InsegnamentoPercorso_2023_50-213_2019_EC-ST01_S2-Lezioni-privato/EcbBldunfRlGoDmbtNgNs8EBcj0CGWWWvUlkaS7EozfOYA?e=hYOonj)
 
 
 # Pagina del Tutor
