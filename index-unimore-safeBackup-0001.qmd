@@ -4,9 +4,9 @@ title: "Corso di Statistica CLEAM"
 
 Benvenuti nella homepage del corso di Statistica, qui di seguito le risorse utilizzate nel corso
 
-# Prova del 09/06/2025
+## Prova parziale
 
-[Compito totale (dall'esercizio 1) e secondo parziale (dall'esercizio 4)](compito-tt.html)
+- [Tracce e Soluzioni](prz-1.html)
 
 # Appunti e Esercizi
 
@@ -23,15 +23,13 @@ Benvenuti nella homepage del corso di Statistica, qui di seguito le risorse util
 
 - [Teams Statistica](https://teams.microsoft.com/l/team/19%3AxjKeXglSiTLuaBjA9R2H173fjKKphQPLxYigYpdw9iY1%40thread.tacv2/conversations?groupId=7d35d7a9-c260-4dc6-8c50-0031c974fd62&tenantId=e787b025-3fc6-4802-874a-9c988768f892)
 
-# Problemi di Registrazione
+## Problemi di Registrazione
 
 - [slides della lezione 05/03](slides0503.pdf)
 - [lezione del 19/03](https://unimore365.sharepoint.com/:v:/s/InsegnamentoPercorso_2023_50-213_2019_EC-ST01_S2-Lezioni-privato/EbRKlv5qlNxNiAyj-OoZBUAB4ksgBXd9GS54cBoFQWSDcQ?e=6YJVao)
 - l'audio dell'esercitazione del 17/03 non è disponibile per problemi tecnici
 - la registrazione della lezione del 26/03 è mancante, un riassunto è nella lezione del 27
 - [slides della lezione 12/05](slides1205.pdf)
-- [lezione del 21/05/2025: uso per la prima parte la lezione registrata nel 2024](https://unimore365.sharepoint.com/:v:/s/InsegnamentoPercorso_2023_50-213_2019_EC-ST01_S2-Lezioni-privato/EX8NaWhKIc5OipXEAzfpBo0Bs3p7JZkocxRsidGA4t1tDw) i test sono svolti per un solo valore di $\alpha$, ma come indicato negli esercizi del 2024, da quest'anno usiamo diversi valori di $\alpha$.
-- [lezione del 21/05/2025: uso per la seconda parte registrata nel 2024 fino al minuto 37](https://unimore365.sharepoint.com/:v:/s/InsegnamentoPercorso_2023_50-213_2019_EC-ST01_S2-Lezioni-privato/EcbBldunfRlGoDmbtNgNs8EBcj0CGWWWvUlkaS7EozfOYA?e=hYOonj)
 
 
 # Pagina del Tutor
@@ -40,11 +38,6 @@ Benvenuti nella homepage del corso di Statistica, qui di seguito le risorse util
 [https://moodle.unimore.it/course/view.php?id=16324](https://moodle.unimore.it/course/view.php?id=16324)
 
 Le registrazione della pagina del tutor saranno disponibili entro il 19 maggio disponibile solo per studenti lavoratori e DSA. Dal 19 maggio saranno disponibili per tutti.
-
-# Prova parziale
-
-- [Tracce e Soluzioni](prz-1.html)
-
 
 # Materiale per l'esame
 
