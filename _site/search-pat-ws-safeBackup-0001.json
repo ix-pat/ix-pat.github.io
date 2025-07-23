@@ -4,11 +4,7 @@
     "href": "index.html",
     "title": "Corso di Statistica CLEAM",
     "section": "",
-<<<<<<< HEAD
     "text": "Benvenuti nella homepage del corso di Statistica, qui di seguito le risorse utilizzate nel corso\n\nProva del 27/06/2025\nCompito secondo appello\n\n\nAppunti e Esercizi\n\nSlides della prima lezione\nSlides Inferenza\nGli appunti contengono il canovaccio delle lezioni si possono consultare online: Appunti di Statistica\nOppure si può scaricare la versione stampabile da qui: Apputni di Statistica in pdf\nEsercizi e compiti passati online: Eserciziario\nEsercizi e compiti passati pdf: Eserciziario pdf\nCompendio di Teoria\n\n\n\nPagina Teams del corso 24/25\n\nTeams Statistica\n\n\n\nProblemi di Registrazione\n\nslides della lezione 05/03\nlezione del 19/03\nl’audio dell’esercitazione del 17/03 non è disponibile per problemi tecnici\nla registrazione della lezione del 26/03 è mancante, un riassunto è nella lezione del 27\nslides della lezione 12/05\nlezione del 21/05/2025: uso per la prima parte la lezione registrata nel 2024 i test sono svolti per un solo valore di \\(\\alpha\\), ma come indicato negli esercizi del 2024, da quest’anno usiamo diversi valori di \\(\\alpha\\).\nlezione del 21/05/2025: uso per la seconda parte registrata nel 2024 fino al minuto 37\n\n\n\nPagina del Tutor\nhttps://moodle.unimore.it/course/view.php?id=16324\nLe registrazione della pagina del tutor saranno disponibili entro il 19 maggio disponibile solo per studenti lavoratori e DSA. Dal 19 maggio saranno disponibili per tutti.\n\n\n\n\nMateriale per l’esame\n\nFormulario\nTavole statistiche\n\n\n\nApplicazioni web\n\nFunzione di Ripartizione descrittiva\nPassaggio discreto continuo\nVariabili Casuali\nTeorema del Limite Centrale\nLegge Dei Grandi Numeri e TLC\nIntervalli di Confidenza\nTest\nMinimi Quadrati\n\n\n\nFoglio di Calcolo con le tavole\nEsempio di Regressione\nGeneratore di Compiti (beta)\nCalcolatrice Statistica"
-=======
-    "text": "Benvenuti nella homepage del corso di Statistica, qui di seguito le risorse utilizzate nel corso"
->>>>>>> c704a52 (Aggiornamento automatico)
   },
   {
     "objectID": "about.html",
@@ -37,33 +33,5 @@
     "title": "Corso di Statistica CLEAM",
     "section": "Prova parziale",
     "text": "Prova parziale\n\nTracce e Soluzioni"
-  },
-  {
-    "objectID": "esame.html",
-    "href": "esame.html",
-    "title": "Vademecum per l’esame",
-    "section": "",
-    "text": "Per svolgere l’esame è necessario portare con sé:\n\nCalcolatrice scientifica (controllate il livello delle batterie), togliete il coperchio se presente\nFormulario (senza alcun segno o appunto)\nTavole statistiche (senza alcun segno o appunto)\nAstuccio minimale (penna, matita, gomma, righello). Andrà tenuto aperto sul banco per eventuali ispezioni.\nTesserino universitario, o documento di identità per l’identificazione."
-  },
-  {
-    "objectID": "esame.html#regole-per-il-giorno-dellesame",
-    "href": "esame.html#regole-per-il-giorno-dellesame",
-    "title": "Vademecum per l’esame",
-    "section": "Regole per il giorno dell’esame",
-    "text": "Regole per il giorno dell’esame\n\nIl giorno dell’esame non è il giorno del ricevimento: si possono fare sul testo della traccia ma non sui metodi.\nogni tipo di comunicazione comporta l’annullamento della prova di chi parla e di chi ascolta.\nogni tipo di materiale non ammesso (biglietti, device, ecc.) comporta l’annullamento della prova.\nLa prova dura 90 minuti\nUn timer scandisce il tempo mancante"
-  },
-  {
-    "objectID": "esame.html#materiale-da-portare-allesame",
-    "href": "esame.html#materiale-da-portare-allesame",
-    "title": "Vademecum per l’esame",
-    "section": "",
-    "text": "Per svolgere l’esame è necessario portare con sé:\n\nCalcolatrice scientifica (controllate il livello delle batterie), togliete il coperchio se presente\nFormulario (senza alcun segno o appunto)\nTavole statistiche (senza alcun segno o appunto)\nAstuccio minimale (penna, matita, gomma, righello). Andrà tenuto aperto sul banco per eventuali ispezioni.\nTesserino universitario, o documento di identità per l’identificazione."
-  },
-  {
-    "objectID": "index.html#prova-del-17-luglio-2025",
-    "href": "index.html#prova-del-17-luglio-2025",
-    "title": "Corso di Statistica CLEAM",
-    "section": "Prova del 17 luglio 2025",
-    "text": "Prova del 17 luglio 2025\n\nTraccia 1 e correzioni\nTraccia 2 e correzioni\nTraccia 3 e correzioni"
   }
 ]

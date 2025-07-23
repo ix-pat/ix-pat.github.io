@@ -4,12 +4,19 @@ title: "Corso di Statistica CLEAM"
 
 Benvenuti nella homepage del corso di Statistica, qui di seguito le risorse utilizzate nel corso
 
+<<<<<<< HEAD
 # Prova del 27/06/2025
 
 [Compito secondo appello](250627.html)
+=======
+## Prova del 17 luglio 2025
+
+- [Traccia 1 e correzioni](https://ix-pat.github.io/esercizi/anno-2025.html#prova-di-statistica-20250717-1)
+- [Traccia 2 e correzioni](https://ix-pat.github.io/esercizi/anno-2025.html#prova-di-statistica-20250717-2)
+- [Traccia 3 e correzioni](https://ix-pat.github.io/esercizi/anno-2025.html#prova-di-statistica-20250717-3)
+>>>>>>> c704a52 (Aggiornamento automatico)
 
 # Appunti e Esercizi
-
 
 -   [Slides della prima lezione](https://docs.google.com/presentation/d/1xD1ut73zSct0uUt0pjhyfKvqpX-XoGe4bf3c1sXWKBY/edit?usp=sharing)
 -   [Slides Inferenza](Slides/slides_infernza.html)
@@ -33,21 +40,23 @@ Benvenuti nella homepage del corso di Statistica, qui di seguito le risorse util
 - [lezione del 21/05/2025: uso per la prima parte la lezione registrata nel 2024](https://unimore365.sharepoint.com/:v:/s/InsegnamentoPercorso_2023_50-213_2019_EC-ST01_S2-Lezioni-privato/EX8NaWhKIc5OipXEAzfpBo0Bs3p7JZkocxRsidGA4t1tDw) i test sono svolti per un solo valore di $\alpha$, ma come indicato negli esercizi del 2024, da quest'anno usiamo diversi valori di $\alpha$.
 - [lezione del 21/05/2025: uso per la seconda parte registrata nel 2024 fino al minuto 37](https://unimore365.sharepoint.com/:v:/s/InsegnamentoPercorso_2023_50-213_2019_EC-ST01_S2-Lezioni-privato/EcbBldunfRlGoDmbtNgNs8EBcj0CGWWWvUlkaS7EozfOYA?e=hYOonj)
 
-
-# Pagina del Tutor
-
+# Pagina del Tutor 24/25
 
 [https://moodle.unimore.it/course/view.php?id=16324](https://moodle.unimore.it/course/view.php?id=16324)
 
+<<<<<<< HEAD
 Le registrazione della pagina del tutor saranno disponibili entro il 19 maggio disponibile solo per studenti lavoratori e DSA. Dal 19 maggio saranno disponibili per tutti.
 
 <!-- # Prova parziale -->
 
 <!-- - [Tracce e Soluzioni](prz-1.html) -->
 
+=======
+>>>>>>> c704a52 (Aggiornamento automatico)
 
 # Materiale per l'esame
 
+-   [**Regole del giorno dell'esame**](esame.qmd)
 -   [Formulario](formulario23.pdf)
 -   [Tavole statistiche](tavole-statistiche.pdf)
 

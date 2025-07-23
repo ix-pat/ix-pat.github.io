@@ -1,0 +1,21 @@
+---
+title: "Vademecum per l'esame"
+---
+
+## Materiale da portare all'esame
+
+Per svolgere l'esame è necessario portare con sé:
+
+- Calcolatrice scientifica (controllate il livello delle batterie), togliete il coperchio se presente
+-   [Formulario (senza alcun segno o appunto)](formulario23.pdf)
+-   [Tavole statistiche (senza alcun segno o appunto)](tavole-statistiche.pdf)
+-   Astuccio minimale (penna, matita, gomma, righello). Andrà tenuto aperto sul banco per eventuali ispezioni.
+- Tesserino universitario, o documento di identità per l'identificazione.
+
+## Regole per il giorno dell'esame
+
+- Il giorno dell'esame **non** è il giorno del ricevimento: si possono fare sul testo della traccia ma non sui metodi.
+- ogni tipo di comunicazione comporta l'**annullamento** della prova di chi parla e di chi ascolta.
+- ogni tipo di materiale non ammesso (biglietti, device, ecc.) comporta l'**annullamento** della prova.
+- La prova dura 90 minuti
+- Un timer scandisce il tempo mancante
