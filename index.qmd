@@ -4,12 +4,6 @@ title: "Corso di Statistica CLEAM"
 
 Benvenuti nella homepage del corso di Statistica, qui di seguito le risorse utilizzate nel corso
 
-## Prova del 17 luglio 2025
-
-- [Traccia 1 e correzioni](https://ix-pat.github.io/esercizi/anno-2025.html#prova-di-statistica-20250717-1)
-- [Traccia 2 e correzioni](https://ix-pat.github.io/esercizi/anno-2025.html#prova-di-statistica-20250717-2)
-- [Traccia 3 e correzioni](https://ix-pat.github.io/esercizi/anno-2025.html#prova-di-statistica-20250717-3)
-
 
 # Appunti e Esercizi
 

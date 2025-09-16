@@ -17,5 +17,5 @@ Per svolgere l'esame è necessario portare con sé:
 - Il giorno dell'esame **non** è il giorno del ricevimento: si possono fare sul testo della traccia ma non sui metodi.
 - ogni tipo di comunicazione comporta l'**annullamento** della prova di chi parla e di chi ascolta.
 - ogni tipo di materiale non ammesso (biglietti, device, ecc.) comporta l'**annullamento** della prova.
-- La prova dura 90 minuti
-- Un timer scandisce il tempo mancante
+- La prova dura 90 minuti.
+- Un timer scandisce il tempo mancante.
