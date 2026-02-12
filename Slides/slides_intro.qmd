@@ -1,0 +1,227 @@
+---
+title: "Inferenza"
+author: "Patrizio Frederic"
+date: "`r Sys.Date()`"
+output:
+  slidy_presentation:
+    highlight: pygments
+    incremental: true
+    footer: © 2025 Patrizio Frederic
+    css: stile.css
+  pdf_document:
+    keep_tex: true
+  html_document:
+    highlight: pygments
+    theme: united
+  ioslides_presentation:
+    incremental: true
+    css: stile.css
+  beamer_presentation:
+    highlight: pygments
+    incremental: true
+header-includes:
+- \usepackage[italian]{babel}
+- \usepackage{amsmath,mathrsfs,amsthm}
+---
+
+<!-- ```rmd -->
+<!-- --- -->
+<!-- title: "Statistica – Lezione 1 (Cap. 1: Dati)" -->
+<!-- output: -->
+<!--   revealjs::revealjs_presentation: -->
+<!--     theme: simple -->
+<!--     slide_level: 2 -->
+<!--     center: false -->
+<!--     incremental: false -->
+<!-- --- -->
+
+## Agresti (due colonne)
+
+<div style="display:flex; gap:2rem;">
+<div style="flex:1; font-size:0.92em;">
+
+**English (Agresti & Franklin, 2007)**
+
+> "Statistics is the art and science of designing studies and ana...t, **statistics is the art and science of learning from data**".
+
+</div>
+<div style="flex:1; font-size:0.92em;">
+
+**Italiano (traduzione nel capitolo)**
+
+> La statistica è l'arte e la scienza di pianificare la racco...i: **La statistica è l'arte e la scienza di imparare dai dati**.
+
+</div>
+</div>
+
+---
+
+## Dato e dati
+
+**Dato (etimo + 2 esempi)**  
+In latino *datum* significa ciò che è dato, un fatto, un evento osservato.
+
+- La chiusura dell'indice Dow Jones il 12 novembre 2025 è stata ...
+- Il prezzo medio della benzina in Italia a settembre 2024 era circa 1.87 €/litro.
+
+**Dati (definizione + 2 esempi)**  
+I dati sono collezioni strutturate di fatti osservati, codificati in modo opportuno, che descrivono un fenomeno.
+
+- le chiusure giornaliere del ... nel 2025
+- le durate medie dei ricoveri ospedalieri in una regione
+
+---
+
+## Fenomeni e fenomeni collettivi
+
+**Fenomeno (etimo + 2 esempi)**  
+In greco fenomeno deriva da φαίνεσθαι (phaínesthai [faˈinestʰa...]).
+
+Esempi (fenomeni “singoli”):
+- la caduta di un corpo
+- l’oscillazione di un pendolo
+
+**Fenomeno collettivo (4 esempi)**  
+Quando lo studio riguarda una pluralità di elementi simili tra loro, parliamo di fenomeno collettivo.
+
+Esempi:
+- la denatalità
+- l’invecchiame... (invecchiamento della popolazione)
+- il comportamento dei consumatori
+- l’andamento dei flussi di traffico in un’area urb...
+
+---
+
+## Dati, fenomeni, variabilità e statistica
+
+Un modo “compatto” di legare i concetti:
+
+- **Fenomeno collettivo**: riguarda molte unità simili (persone, imprese, comuni, transazioni, misure ripetute…)
+- Su ciascuna unità osserviamo una o più **variabili**
+- Le osservazioni (codificate) sono i **dati**
+- Tra unità diverse, le variabili **variano**: la variabilità è fisiologica, non un “fastidio”
+- La statistica studia:
+  - **regolarità** (tendenze d’insieme)
+  - **variabilità** (quanto e come cambiano le unità)
+  - e usa entrambe per **descrivere** e **prevedere**
+
+Mini–schema (da dire a voce):
+\[
+\text{Unità} \;\rightarrow\; \text{Variabili} \;\rightarrow\; \text{Dati} \;\rightarrow\; \text{Fenomeno} \quad\text{con variabilità}
+\]
+
+---
+
+## Descrizione e previsione
+
+Nel capitolo i due obiettivi sono presentati come complementari:
+
+**Obiettivo conoscitivo**  
+Mira a comprendere l’andamento generale di un fenomeno collettiv..., distinguendo ciò che è regolare da ciò che varia tra le unità.
+
+**Obiettivo predittivo**  
+Le regolarità osservate possono essere impiegate per formulare previsioni su casi non osservati; la variabilità quantifica il margine d’errore.
+
+\[
+\text{Futuro}=\text{Previsione}+\text{Errore}
+\]
+
+DATI \(\rightarrow\) ANALISI \(\rightarrow\) PREVISIONE \(+\) ERRORE
+
+---
+
+## Unità statistica e variabile
+
+:::{.definition name="Unità Statistica"}
+Si definisce **unità statistica** l'entità su cui rilevare una o più informazioni
+:::
+
+:::{.definition name="Variabile Statistica"}
+Si definisce **variabile statistica** l'aspetto dell'unità statistica che si osserva o misura.
+:::
+
+Esempi (dal capitolo): individuo, impresa, comune, componente... (a seconda del fenomeno).
+
+---
+
+## Classificazione dei tipi di variabile
+
+(Dalla sezione “Riepilogo sulle Variabili”)
+
+- **Qualitativa**
+  - *sconnessa* (nominale): genere, stato civile, settore di occupazione, generi musicali
+  - *ordinata* (ordinale): titolo di studio, preferenze, giudizi
+- **Quantitativa**
+  - *discreta*: numero di incidenti, voto di laurea
+  - *continua*: misure di lunghezza, capienza e peso
+
+---
+
+## Popolazione statistica: finita e infinita
+
+:::{.definition name="Popolazione Statistica"}
+Si definisce **Popolazione Statistica** l'insieme di tutte le unità statistiche di riferimento.
+:::
+
+A seconda del contesto, una popolazione può essere **finita** o **infinita** (nel capitolo: esempi come elettori aventi diritto al voto, imprese iscritte..., oppure misurazioni potenzialmente illimitate come quelle di un sensore).
+
+---
+
+## Origine dei dati: sperimentali e osservazionali
+
+Le evidenze empiriche su cui lavora la statistica possono essere... (conta il rapporto tra teoria, osservazione e realtà).
+
+- **Sperimentali**: l’osservazione è guidata da un disegno e... (es.: confronto tra due gruppi, trattato vs controllo)
+- **Osservazionali**: si osserva “ciò che accade” senza intervenire direttamente, e poi si cerca struttura/relazioni nei dati
+
+---
+
+## I dati economici
+
+Nel capitolo: l’economia combina modelli teorici ed evidenze emp... e spesso i dati sono **osservazionali**.
+
+Esempi di grandezze tipiche (dal testo): prezzi, redditi, occupazione, produzione, consumi, investime...
+
+Idea da far passare: molti fenomeni economici sono storici/sociali/istituzionali, quindi i dati “portano dentro” quel contesto.
+
+---
+
+## Censimento e campionamento
+
+**Censimento**: osservare tutte le unità della popolazione (ideale, ma raro).  
+**Campionamento**: osservare una parte e generalizzare alla popolazione.
+
+Nel capitolo: il censimento è spesso impraticabile per costi/tempi/complessità; il campionamento è la via ordinaria, ma richiede disegno e controllo della qualità.
+
+---
+
+## Gli enti e le indagini
+
+Nel capitolo: una parte centrale dei dati economici è prodotta dagli enti di s... (statistica ufficiale).
+
+Punti–chiave da dire a voce:
+- enti e sistemi statistici (producono dati con definizioni standard)
+- comparabilità nel tempo e nello spazio
+- documentazione (metadati, definizioni operative, disegni di campionamento)
+
+---
+
+## Esempi di indagini (dal capitolo)
+
+**Esempio di indagini ufficiali**
+
+- **Indagine sulle forze di lavoro (ISTAT)**: obiettivo di ... (popolazione residente in famiglie, ecc.)
+- **Indagine sui consumi delle famiglie (ISTAT)**: rileva le sp... (campione molto ampio, diario delle spese, interviste)
+- **EU-SILC** (coordinata da Eurostat, realizzata in It...): reddito/condizioni di vita, campioni annuali
+
+---
+
+## La matrice dei dati
+
+La matrice dei dati è una tabella che consente di raccogliere in modo efficiente molti tipi diversi di dati.
+
+- **Righe**: unità statistiche (le determinazioni delle variabili per una specifica unità)
+- **Colonne**: caratteri / variabili (le modalità osservate sulle unità)
+
+(Se vuoi, in una versione “live” possiamo includere anche il chunk che genera la tabella d’esempio del capitolo.)
+```
