@@ -25,7 +25,10 @@ La lezione del 12 marzo 2026 non ha la traccia audio, condivido due lezioni del 
 
 - [Binomiale](https://unimore365.sharepoint.com/:v:/s/InsegnamentoPercorso_2024_50-213_2019_EC-ST01_S2-Lezioni-privato/IQAGrvOP-CiTQo1Pwbo8RKKlAd-v98jVO7BXdCWMuzzEk60?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Sr1Vv3)
 - [Poisson (fino al minuto 54)](https://unimore365.sharepoint.com/:v:/s/InsegnamentoPercorso_2024_50-213_2019_EC-ST01_S2-Lezioni-privato/IQCxf2TX5hnDRLhUP5dJefrsASi_qS15EQyn1T6jZ1javpg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=k5obua)
-- [Lezione del 30 aprile 2026, dal minuto 8:18](https://unimore365.sharepoint.com/:v:/s/InsegnamentoPercorso_2024_50-213_2019_EC-ST01_S2-Lezioni-privato/IQAtT6Co3yiKQbP39zTs9YJZAUEnd3ymkrZMacR_jL9xZZ8?e=dGcQr5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NDk4LjUxfX0%3D)
+
+La lezione del 30 aprile non ha la traccia video.
+
+- [$r$, $r^2$, scomposizione della varianza e test sui beta, dal minuto 8:18](https://unimore365.sharepoint.com/:v:/s/InsegnamentoPercorso_2024_50-213_2019_EC-ST01_S2-Lezioni-privato/IQAtT6Co3yiKQbP39zTs9YJZAUEnd3ymkrZMacR_jL9xZZ8?e=dGcQr5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NDk4LjUxfX0%3D)
 
 
 # Pagina del Tutor 25/26

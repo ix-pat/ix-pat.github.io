@@ -68,6 +68,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="style.css">
 </head>
@@ -168,7 +197,10 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="https://unimore365.sharepoint.com/:v:/s/InsegnamentoPercorso_2024_50-213_2019_EC-ST01_S2-Lezioni-privato/IQAGrvOP-CiTQo1Pwbo8RKKlAd-v98jVO7BXdCWMuzzEk60?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&amp;e=Sr1Vv3">Binomiale</a></li>
 <li><a href="https://unimore365.sharepoint.com/:v:/s/InsegnamentoPercorso_2024_50-213_2019_EC-ST01_S2-Lezioni-privato/IQCxf2TX5hnDRLhUP5dJefrsASi_qS15EQyn1T6jZ1javpg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&amp;e=k5obua">Poisson (fino al minuto 54)</a></li>
-<li><a href="https://unimore365.sharepoint.com/:v:/s/InsegnamentoPercorso_2024_50-213_2019_EC-ST01_S2-Lezioni-privato/IQAtT6Co3yiKQbP39zTs9YJZAUEnd3ymkrZMacR_jL9xZZ8?e=dGcQr5&amp;nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NDk4LjUxfX0%3D">Lezione del 30 aprile 2026, dal minuto 8:18</a></li>
+</ul>
+<p>La lezione del 30 aprile non ha la traccia video.</p>
+<ul>
+<li><a href="https://unimore365.sharepoint.com/:v:/s/InsegnamentoPercorso_2024_50-213_2019_EC-ST01_S2-Lezioni-privato/IQAtT6Co3yiKQbP39zTs9YJZAUEnd3ymkrZMacR_jL9xZZ8?e=dGcQr5&amp;nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NDk4LjUxfX0%3D"><span class="math inline">\(r\)</span>, <span class="math inline">\(r^2\)</span>, scomposizione della varianza e test sui beta, dal minuto 8:18</a></li>
 </ul>
 </section>
 <section id="pagina-del-tutor-2526" class="level1">
