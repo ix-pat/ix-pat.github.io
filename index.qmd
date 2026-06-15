@@ -6,7 +6,7 @@ Benvenuti nella homepage del corso di Statistica, qui di seguito le risorse util
 
 # Prova del 12/06/2026
 
-- [Compito](12-06-2026.html)
+- [Compito (attenzione non tutte le soluzioni sono state controllate)](12-06-2026.html)
 
 # Appunti e Esercizi
 
